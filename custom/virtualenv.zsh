@@ -15,12 +15,12 @@
 # `virtualenvwrapper.sh`
 
 # This is where you keep your virtualenvs.
-export WORKON_HOME=~/virtualenvs
+export WORKON_HOME=~/.virtualenvs
 
 # Which python to use for virtualenvwrapper. If you're using MacPorts like me,
 # this should be the MacPorts python, not the system python.
 #
-#export VIRTUALENVWRAPPER_PYTHON=/opt/local/bin/python 
+#export VIRTUALENVWRAPPER_PYTHON=/opt/local/bin/python
 
 # Which virtualenv the virtualenvwrapper should use.
 # export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
@@ -37,7 +37,7 @@ fi
 
 # I always make a virtualenv called default and this activates it.
 
-if [ -n "$VIRTUAL_ENV" ] ; then 
+if [ -n "$VIRTUAL_ENV" ] ; then
 else
     workon default
 fi
