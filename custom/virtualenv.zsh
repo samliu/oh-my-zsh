@@ -36,7 +36,11 @@ fi
 # `mkvirtualenv test1`
 
 # I always make a virtualenv called default and this activates it.
-workon default
+
+if [ -n "$VIRTUAL_ENV" ] ; then 
+else
+    workon default
+fi
 
 # HACK: Change the system PS1 to display the virtualenv being used.
 # TODO(samcliu): Figure out why PS1 is overridden after source bin/activate
