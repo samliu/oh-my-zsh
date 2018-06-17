@@ -32,3 +32,7 @@ fi
 # A great guide to irssi + screen: [https://quadpoint.org/articles/irssi].
 alias irc="screen -rd"
 alias startirc="screen irssi"
+
+# [Monitoring Graphics]
+# I wanted htop for my GPU. This basically does what I need.
+alias gtop="watch -n 0.5 nvidia-smi"
