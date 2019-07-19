@@ -39,7 +39,7 @@ fi
 
 if [ -n "$VIRTUAL_ENV" ] ; then
 else
-    workon "python3.6"
+    workon "python3.7"
 fi
 
 # HACK: Change the system PS1 to display the virtualenv being used.

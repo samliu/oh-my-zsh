@@ -36,3 +36,6 @@ alias startirc="screen irssi"
 # [Monitoring Graphics]
 # I wanted htop for my GPU. This basically does what I need.
 alias gtop="watch -n 0.5 nvidia-smi"
+
+# [Bazel]
+alias blaze="bazel"
