@@ -1,7 +1,3 @@
-# Add miniconda to path.
-export PATH="$PATH:$HOME/miniconda3/bin"
-
-
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/home/samliu/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
